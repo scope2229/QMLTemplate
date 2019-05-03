@@ -1,5 +1,41 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>WelcomeStack.qml</file>
+        <file>components/Background.qml</file>
+        <file>InitialScreen.ui.qml</file>
+        <file>components/CustomButton.qml</file>
+        <file>guardsec/auth/GuardianLogin.ui.qml</file>
+        <file>components/CustomInput.qml</file>
+        <file>guardsec/auth/GuardianRegister.ui.qml</file>
+        <file>guardsec/main/GuardianStack.qml</file>
+        <file>guardsec/main/GuardianMain.ui.qml</file>
+        <file>guardsec/main/GuardianBook.ui.qml</file>
+        <file>guardsec/main/GuardianHistory.ui.qml</file>
+        <file>guardsec/main/GuardianSettings.ui.qml</file>
+        <file>components/IceDelegate.qml</file>
+        <file>components/IceModel.qml</file>
+        <file>components/DateTimePicker.qml</file>
+        <file>components/TimeDatePIcker.qml</file>
+        <file>guardsec/main/GuardianBookCode.qml</file>
+        <file>components/BookingHistoryModel.qml</file>
+        <file>guardsec/main/GuardianHistoryCode.qml</file>
+        <file>guardsec/main/GuardianSettingsCode.qml</file>
+    </qresource>
+    <qresource prefix="/assets">
+        <file alias="bkgrndimg.png">assets/images/appbkgrnd.png</file>
+        <file alias="logo.png">assets/images/logo.png</file>
+        <file alias="btnbkgrnd.png">assets/images/btnbkgrnd.png</file>
+        <file alias="inputbkgrnd.png">assets/images/textInput.png</file>
+        <file alias="settingsIcon.png">assets/images/settingsBTN.png</file>
+        <file alias="homeIcon.png">assets/images/homeBTN.png</file>
+        <file alias="historyIcon.png">assets/images/historyBTN.png</file>
+        <file alias="bookIcon.png">assets/images/bookBTN.png</file>
+        <file alias="profImg.png">assets/images/defaultprofile.png</file>
+        <file alias="enFlag.png">assets/images/countryflags/enFlag.png</file>
+        <file alias="spFlag.png">assets/images/countryflags/spFlag.png</file>
+        <file alias="myFlag.png">assets/images/countryflags/myFlag.png</file>
+        <file alias="frFlag.png">assets/images/countryflags/frFlag.png</file>
+        <file alias="cnFlag.png">assets/images/countryflags/cnFlag.png</file>
     </qresource>
 </RCC>
